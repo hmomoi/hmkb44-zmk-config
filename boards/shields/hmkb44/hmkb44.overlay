@@ -1,0 +1,24 @@
+#include <dt-bindings/zmk/bt.h>
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+#include "hmkb44.dtsi"
+
+
+&kscan0 {
+    compatible = "zmk,kscan-gpio-charlieplex";
+    interrupt-gpios = <&xiao_d 8 (GPIO_ACTIVE_LOW)>;
+    gpios
+        = <&xiao_d 3 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 7 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 2 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 6 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 1 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 5 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 0 (GPIO_ACTIVE_LOW)>
+        , <&xiao_d 4 (GPIO_ACTIVE_LOW)>
+        ;
+};
+  
+&xiao_serial { status = "disabled"; };
+&uart0 { status = "disabled";};
