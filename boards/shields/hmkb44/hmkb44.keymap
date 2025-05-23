@@ -6,8 +6,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <behaviors/mouse_keys.dtsi>
 
-// https://github.com/te9no/zmk-config-GeaconSolstice/blob/main/boards/shields/GeaconSolstice/Solstice.keymap
-
 / {
     chosen {
 		    zmk,physical-layout = &layout_US;

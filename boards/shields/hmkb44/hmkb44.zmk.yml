@@ -4,6 +4,3 @@ name: hmkb44
 type: shield
 url: https://github.com/hmomoi/zmk-keyboard-project
 requires: [seeeduino_xiao_ble]
-features:
-  - keys
-  - underglow
