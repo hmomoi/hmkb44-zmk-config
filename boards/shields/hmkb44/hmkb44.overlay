@@ -1,7 +1,12 @@
 #include <dt-bindings/zmk/bt.h>
-#include "hmkb44.dtsi"
 #include <dt-bindings/led/led.h>
+#include "hmkb44.dtsi"
 
+/ {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
+};
 
 &kscan0 {
     compatible = "zmk,kscan-gpio-charlieplex";
@@ -60,8 +65,3 @@
     };
 };
 
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-};
