@@ -3,15 +3,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <physical_layouts.dtsi>
 
-&mt {
-    tapping-term-ms = <200>; // This is the value already set by default
+&led_strip {
+    chain-length = <6>;
 };
-
-
-&lt {
-    tapping-term-ms = <200>; // This is the value already set by default
-};
-
 
 / {
     behaviors {
