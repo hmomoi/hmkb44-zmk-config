@@ -40,7 +40,7 @@
         transform = <&default_transform>;
         kscan = <&kscan0>;
         keys =
-            //                    w   h    x    y     rot    rx    ry,
+            //                    w   h    x    y     rot    rx    ry,,
             <&key_physical_attrs 150 100    0    0       0     0     0>,
             <&key_physical_attrs 100 100  150    0       0   150     0>,
             <&key_physical_attrs 100 100  250    0       0   250     0>,
@@ -107,7 +107,7 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp ENTER  &kp LEFT_SHIFT  &kp SLASH  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &mo 2  &lt 3 SPACE  &mo 4  &kp RALT  &kp RCTRL
+&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp ENTER  &kp LEFT_SHIFT  &kp SLASH  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &mo 2  &lt 3 SPACE  &mo 4  &kp RALT  &kp RCTRL
             >;
         };
 
