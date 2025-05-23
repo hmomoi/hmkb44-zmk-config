@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: hmomoi
-      url-base: https://github.com/hmomoi/zmk-keyboard-project
+      url-base: https://github.com/hmomoi
     - name: caksoylar  # <-- RGB LED
       url-base: https://github.com/caksoylar  
   projects:
