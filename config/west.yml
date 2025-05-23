@@ -4,16 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: hmomoi
       url-base: https://github.com/hmomoi/zmk-keyboard-project
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: main
   self:
     path: config
 
