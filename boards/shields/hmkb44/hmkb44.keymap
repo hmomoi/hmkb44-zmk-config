@@ -3,6 +3,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <physical_layouts.dtsi>
 
+/* Uncomment this block if using RGB
+&led_strip {
+    chain-length = <6>;
+};
+*/
+
 / {
     behaviors {
         mt: mod_tap {
