@@ -1,18 +1,18 @@
 if SHIELD_HMKB44
 
-config ZMK_KEYBOARD_NAME
-    default "hmkb44"
+    config ZMK_KEYBOARD_NAME
+        default "hmkb44"
 
-config ZMK_BLE
-    default y
+    config ZMK_BLE
+        default y
 
-config NFCT_PINS_AS_GPIOS
-    default y
+    config NFCT_PINS_AS_GPIOS
+        default y
 
-config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
-    default 30
+    config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
+        default 30
 
-config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
-    default 10
+    config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
+        default 10
 
 endif
