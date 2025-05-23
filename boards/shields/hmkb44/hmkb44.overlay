@@ -1,4 +1,6 @@
 #include <dt-bindings/zmk/bt.h>
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 #include <dt-bindings/led/led.h>
 #include "hmkb44.dtsi"
 
@@ -23,9 +25,6 @@
         ;
 };
   
-&xiao_serial { status = "disabled"; };
-&uart0 { status = "disabled";};
-
 &pinctrl {
     spi1_default: spi1_default {
         group1 {
@@ -65,3 +64,5 @@
     };
 };
 
+&xiao_serial { status = "disabled"; };
+&uart0 { status = "disabled";};
