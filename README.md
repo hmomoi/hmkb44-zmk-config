@@ -5,7 +5,7 @@
 主に、zmkファームウェアの管理と、KiCadの設計資材をおいています。
 
 # 目指すキーボード
-* 40%キーボード（TH40を参考に）
+* 40%キーボード（EPOMAKER TH40を参考に）
 * Bluetoothで接続
 * LEDチカチカ
 * charlieplexの実験
