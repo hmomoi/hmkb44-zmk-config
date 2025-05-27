@@ -16,7 +16,8 @@ seeeduino_xiao_ble を使ってイロイロ実験してみたくて作成しま�
 ![image](https://github.com/user-attachments/assets/450d28cb-9e18-43ae-b33c-f6c1fa13dc5b)
 
 # 回路
-そのうち更新します
+![image](https://github.com/user-attachments/assets/27edb557-1e68-4188-a6b6-7f6a72c5f3db)
+
 
 # 参照したnote
 * https://note.com/pooh_polo/n/n2a34a922b4c8
