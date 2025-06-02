@@ -41,7 +41,7 @@
         transform = <&default_transform>;
         kscan = <&kscan0>;
         keys =
-            //                    w   h    x    y     rot    rx    ry,,,,
+            //                    w   h    x    y     rot    rx    ry,,,,,,
             <&key_physical_attrs 150 100    0    0       0     0     0>,
             <&key_physical_attrs 100 100  150    0       0   150     0>,
             <&key_physical_attrs 100 100  250    0       0   250     0>,
@@ -111,14 +111,14 @@
 &kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE
 &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp ENTER
 &kp LEFT_SHIFT  &kp SLASH  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 3 LANG_HIRAGANA  &lt 2 SPACE  &lt 4 INT_MUHENKAN  &kp RALT  &kp RCTRL
+&kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN  &kp RALT  &kp RCTRL
             >;
         };
 
         layer_1 {
             display-name = "Numbers";
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
 &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans
 &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &kp SEMICOLON  &kp LS(SEMICOLON)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -139,7 +139,7 @@
             display-name = "Combination";
             bindings = <
 &trans  &trans  &kp LC(LS(TAB))  &kp PRINTSCREEN  &kp LC(TAB)  &trans  &trans  &kp HOME  &kp UP_ARROW  &kp END  &trans  &trans
-&trans  &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans  &kp DELETE  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
