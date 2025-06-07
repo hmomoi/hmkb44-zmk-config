@@ -13,7 +13,7 @@
 このくらいを目指して作ってます。
 seeeduino_xiao_ble を使ってイロイロ実験してみたくて作成しました。
 # レイアウト
-f![image](https://github.com/user-attachments/assets/eb86fd2e-88db-4f7e-a59b-884f75020a4a)
+![image](https://github.com/user-attachments/assets/eb86fd2e-88db-4f7e-a59b-884f75020a4a)
 
 # 回路
 ![image](https://github.com/user-attachments/assets/27edb557-1e68-4188-a6b6-7f6a72c5f3db)
