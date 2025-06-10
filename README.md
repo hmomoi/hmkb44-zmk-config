@@ -20,7 +20,7 @@ seeeduino_xiao_ble を使ってイロイロ実験してみたくて作成しま�
 
 
 # 参照したnote
-* https://note.com/pooh_polo/n/n2a34a922b4c8
+* https://note.com/pooh_polo/n/n2a34a922b4c8 (zmk firmwareの書き方)
 
 # 参照したgithub
 * https://github.com/te9no/zmk-config-GeaconSolstice/blob/main/boards/shields/GeaconSolstice/Solstice.keymap
