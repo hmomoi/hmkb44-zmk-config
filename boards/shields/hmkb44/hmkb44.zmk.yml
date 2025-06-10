@@ -2,7 +2,7 @@ file_format: "1"
 id: hmkb44
 name: hmkb44
 type: shield
-url: https://github.com/hmomoi/zmk-keyboard-project
+url: https://github.com/hmomoi/hmkb44-zmk-config
 requires: [seeeduino_xiao_ble]
 features:
   - keys
