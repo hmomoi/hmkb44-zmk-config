@@ -26,4 +26,4 @@ seeeduino_xiao_ble を使ってイロイロ実験してみたくて作成しま�
 * https://github.com/te9no/zmk-config-GeaconSolstice/blob/main/boards/shields/GeaconSolstice/Solstice.keymap
 * https://github.com/mctechnology17/zmk-config
 * https://github.com/te9no/zmk-config-title72 （charlieplexのダイオードの向きが逆）
-* https://github.com/HookyKB/round-robin-schematics (charlieplexのschematicが公開されている）
+* https://github.com/HookyKB/round-robin-schematics (charlieplexのschematicが公開されている)
