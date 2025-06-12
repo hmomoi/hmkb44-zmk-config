@@ -60,7 +60,7 @@
         transform = <&default_transform>;
         kscan = <&kscan0>;
         keys =
-            //                    w   h    x    y     rot    rx    ry,,,,,,,,,,,,,,,,,
+            //                    w   h    x    y     rot    rx    ry,,,,,,,,,,,,,,,,,,
             <&key_physical_attrs 150 100    0    0       0     0     0>,
             <&key_physical_attrs 100 100  150    0       0   150     0>,
             <&key_physical_attrs 100 100  250    0       0   250     0>,
@@ -140,10 +140,10 @@
         layer_1 {
             display-name = "Numbers";
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6                              &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9          &kp NUMBER_0  &kp MINUS
-&trans     &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans           &trans                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &trans
-&trans     &trans        &trans        &trans            &kp LEFT_BRACE     &kp RIGHT_BRACE  &rgblayer RGB_COLOR_HSB_VAL(138,89,48) 2  &trans                &kp SEMICOLON          &kp COLON             &trans        &trans
-&trans     &trans        &trans        &trans            &kp LA(GRAVE)      &trans           &trans                                    &trans                &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9          &kp NUMBER_0  &kp MINUS
+&trans     &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans           &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &trans
+&trans     &trans        &trans        &trans            &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans        &trans                &kp SEMICOLON          &kp COLON             &trans        &trans
+&trans     &trans        &trans        &trans            &kp LA(GRAVE)      &trans           &trans        &trans                &trans
             >;
         };
 
