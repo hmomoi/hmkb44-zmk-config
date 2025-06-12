@@ -36,6 +36,7 @@
             #binding-cells = <0>;
             bindings = <&kp ESCAPE>, <&kp LA(LANG_ZENKAKUHANKAKU)>;
         };
+        
         rgblayer: rgb_layer {
         compatible = "zmk,behavior-macro-two-param";
         #binding-cells = <2>;
