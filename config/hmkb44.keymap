@@ -152,10 +152,10 @@
         layer_1 {
             display-name = "1:Numbers";
             bindings = <
-&kp GRAVE  &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp NUMBER_0  &kp MINUS
-&trans     &kp DOUBLE_QUOTES  &kp SQT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans           &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans
-&trans     &trans             &trans        &trans            &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans          &trans                &kp SEMICOLON          &kp COLON      &kp UP_ARROW  &trans
-&trans     &trans             &trans        &trans            &kp LA(GRAVE)      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW
+&kp GRAVE  &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4        &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9   &kp NUMBER_0  &kp MINUS
+&trans     &kp DOUBLE_QUOTES  &kp SQT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &trans           &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans
+&trans     &trans             &trans        &trans            &kp LEFT_BRACE      &kp RIGHT_BRACE  &trans          &trans                &kp SEMICOLON          &kp COLON      &kp UP_ARROW  &trans
+&trans     &trans             &trans        &trans            &kp LA(LANGUAGE_1)  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW
             >;
         };
 
