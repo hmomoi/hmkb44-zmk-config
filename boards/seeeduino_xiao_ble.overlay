@@ -45,7 +45,17 @@ The &gpioX Y  and NRF_PSEL(..., X, Y) uses the PX.Y notation (underlying nRF pin
                          LED_COLOR_ID_BLUE>;
     };
 };
+/ {
+    aliases {
+        led-red = &led0;
+        led-green = &led1;
+        led-blue = &led2;
+    };
 
+    leds {
+        status = "okay";
+    };
+};
 / {
     chosen {
         zmk,underglow = &led_strip;
