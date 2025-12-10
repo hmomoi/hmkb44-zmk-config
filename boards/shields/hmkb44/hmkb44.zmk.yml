@@ -3,7 +3,7 @@ id: hmkb44
 name: hmkb44
 type: shield
 url: https://github.com/hmomoi/hmkb44-zmk-config
-requires: [seeeduino_xiao_ble]
+requires: [xiao_ble]
 features:
   - keys
   - underglow
