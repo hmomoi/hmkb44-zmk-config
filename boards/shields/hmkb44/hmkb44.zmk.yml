@@ -6,5 +6,4 @@ url: https://github.com/hmomoi/hmkb44-zmk-config
 requires: [xiao_ble]
 features:
   - keys
-  - underglow
   - studio
