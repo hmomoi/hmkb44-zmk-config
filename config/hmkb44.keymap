@@ -29,7 +29,6 @@
 
     chosen {
         zmk,physical-layout = &layout_US;
-        zmk,underglow = &led_strip;
     };
 
     layout_US: layout_US {
