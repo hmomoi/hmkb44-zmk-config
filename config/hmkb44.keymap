@@ -27,7 +27,9 @@
         };
     };
 
-    chosen { zmk,physical-layout = &layout_US; };
+    chosen {
+        zmk,physical-layout = &layout_US;
+    };
 
     layout_US: layout_US {
         compatible = "zmk,physical-layout";

@@ -6,9 +6,6 @@ if SHIELD_HMKB44
     config ZMK_BLE
         default y
 
-    config NFCT_PINS_AS_GPIOS
-        default y
-
     config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
         default 30
 
