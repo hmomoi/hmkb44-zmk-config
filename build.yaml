@@ -20,7 +20,8 @@
 include:
   - board: xiao_ble
     shield: hmkb44 rgbled_adapter
-    snippet: zmk-usb-logging studio-rpc-usb-uart
+#    snippet: zmk-usb-logging studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: xiao_ble
     shield: settings_reset
