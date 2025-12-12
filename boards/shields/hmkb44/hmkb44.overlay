@@ -61,12 +61,4 @@
         ;
 };
 
-/*
-{
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-};
-*/
-
 &xiao_serial { status = "disabled"; };
