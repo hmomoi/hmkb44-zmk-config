@@ -8,4 +8,8 @@
     leds {
         status = "okay";
     };
+
+    &uicr {
+        nfct-pins-as-gpios;
+    };
 };
