@@ -6,6 +6,9 @@ if SHIELD_HMKB44
     config ZMK_BLE
         default y
 
+    config SPI
+        default y
+
     config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
         default 30
 
