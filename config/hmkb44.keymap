@@ -47,7 +47,7 @@
             #binding-cells = <1>;
             bindings
                 = <&macro_param_1to1>
-                , <&macro-press &kp MACRO_PLACEHOLDER>
+                , <&macro_press &kp MACRO_PLACEHOLDER>
                 , <&macro_tap &rgb_ug RGB_ON>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(15,100,100)>
                 , <&macro_pause_for_release>
