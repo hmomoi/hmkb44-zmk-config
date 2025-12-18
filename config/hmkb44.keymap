@@ -37,7 +37,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferrd";
             tapping-term-ms = <100>;
-            binding = <&rkp_orange>, <&kp>;
+            bindings = <&rkp_orange>, <&kp>;
             quick-tap-ms = <150>;
         };
         rkp_orange: rgb_kp_orange {
