@@ -1,0 +1,402 @@
+{
+  "pins": {
+    "hmkb44_xiao_d 3": {
+      "silk": "IO0",
+      "line_diode": "D00",
+      "interrupt_diode": "DI0"
+    },
+    "hmkb44_xiao_d 7": {
+      "silk": "IO1",
+      "line_diode": "D11",
+      "interrupt_diode": "DI1"
+    },
+    "hmkb44_xiao_d 2": {
+      "silk": "IO2",
+      "line_diode": "D22",
+      "interrupt_diode": "DI2"
+    },
+    "hmkb44_xiao_d 6": {
+      "silk": "IO3",
+      "line_diode": "D33",
+      "interrupt_diode": "DI3"
+    },
+    "hmkb44_xiao_d 1": {
+      "silk": "IO4",
+      "line_diode": "D44",
+      "interrupt_diode": "DI4"
+    },
+    "hmkb44_xiao_d 5": {
+      "silk": "IO5",
+      "line_diode": "D55",
+      "interrupt_diode": "DI5"
+    },
+    "hmkb44_xiao_d 0": {
+      "silk": "IO6",
+      "line_diode": "D66",
+      "interrupt_diode": "DI6"
+    },
+    "hmkb44_xiao_d 4": {
+      "silk": "IO7",
+      "line_diode": "D77",
+      "interrupt_diode": "DI7"
+    },
+    "hmkb44_xiao_d 8": {
+      "silk": "INTR",
+      "description": "Charlieplex Interrupt pin"
+    }
+  },
+  "keys": [
+    {
+      "matrix": [
+        0,
+        1
+      ],
+      "silk_sw": "SW01",
+      "silk_d": "D01"
+    },
+    {
+      "matrix": [
+        0,
+        2
+      ],
+      "silk_sw": "SW02",
+      "silk_d": "D02"
+    },
+    {
+      "matrix": [
+        0,
+        3
+      ],
+      "silk_sw": "SW03",
+      "silk_d": "D03"
+    },
+    {
+      "matrix": [
+        0,
+        4
+      ],
+      "silk_sw": "SW04",
+      "silk_d": "D04"
+    },
+    {
+      "matrix": [
+        0,
+        5
+      ],
+      "silk_sw": "SW05",
+      "silk_d": "D05"
+    },
+    {
+      "matrix": [
+        0,
+        6
+      ],
+      "silk_sw": "SW06",
+      "silk_d": "D06"
+    },
+    {
+      "matrix": [
+        0,
+        7
+      ],
+      "silk_sw": "SW07",
+      "silk_d": "D07"
+    },
+    {
+      "matrix": [
+        1,
+        0
+      ],
+      "silk_sw": "SW10",
+      "silk_d": "D10"
+    },
+    {
+      "matrix": [
+        1,
+        2
+      ],
+      "silk_sw": "SW12",
+      "silk_d": "D12"
+    },
+    {
+      "matrix": [
+        1,
+        3
+      ],
+      "silk_sw": "SW13",
+      "silk_d": "D13"
+    },
+    {
+      "matrix": [
+        1,
+        4
+      ],
+      "silk_sw": "SW14",
+      "silk_d": "D14"
+    },
+    {
+      "matrix": [
+        1,
+        5
+      ],
+      "silk_sw": "SW15",
+      "silk_d": "D15"
+    },
+    {
+      "matrix": [
+        2,
+        0
+      ],
+      "silk_sw": "SW20",
+      "silk_d": "D20"
+    },
+    {
+      "matrix": [
+        2,
+        1
+      ],
+      "silk_sw": "SW21",
+      "silk_d": "D21"
+    },
+    {
+      "matrix": [
+        2,
+        3
+      ],
+      "silk_sw": "SW23",
+      "silk_d": "D23"
+    },
+    {
+      "matrix": [
+        2,
+        4
+      ],
+      "silk_sw": "SW24",
+      "silk_d": "D24"
+    },
+    {
+      "matrix": [
+        2,
+        5
+      ],
+      "silk_sw": "SW25",
+      "silk_d": "D25"
+    },
+    {
+      "matrix": [
+        2,
+        6
+      ],
+      "silk_sw": "SW26",
+      "silk_d": "D26"
+    },
+    {
+      "matrix": [
+        2,
+        7
+      ],
+      "silk_sw": "SW27",
+      "silk_d": "D27"
+    },
+    {
+      "matrix": [
+        3,
+        0
+      ],
+      "silk_sw": "SW30",
+      "silk_d": "D30"
+    },
+    {
+      "matrix": [
+        3,
+        1
+      ],
+      "silk_sw": "SW31",
+      "silk_d": "D31"
+    },
+    {
+      "matrix": [
+        3,
+        2
+      ],
+      "silk_sw": "SW32",
+      "silk_d": "D32"
+    },
+    {
+      "matrix": [
+        3,
+        4
+      ],
+      "silk_sw": "SW34",
+      "silk_d": "D34"
+    },
+    {
+      "matrix": [
+        4,
+        0
+      ],
+      "silk_sw": "SW40",
+      "silk_d": "D40"
+    },
+    {
+      "matrix": [
+        4,
+        1
+      ],
+      "silk_sw": "SW41",
+      "silk_d": "D41"
+    },
+    {
+      "matrix": [
+        4,
+        2
+      ],
+      "silk_sw": "SW42",
+      "silk_d": "D42"
+    },
+    {
+      "matrix": [
+        4,
+        3
+      ],
+      "silk_sw": "SW43",
+      "silk_d": "D43"
+    },
+    {
+      "matrix": [
+        4,
+        5
+      ],
+      "silk_sw": "SW45",
+      "silk_d": "D45"
+    },
+    {
+      "matrix": [
+        4,
+        6
+      ],
+      "silk_sw": "SW46",
+      "silk_d": "D46"
+    },
+    {
+      "matrix": [
+        4,
+        7
+      ],
+      "silk_sw": "SW47",
+      "silk_d": "D47"
+    },
+    {
+      "matrix": [
+        5,
+        0
+      ],
+      "silk_sw": "SW50",
+      "silk_d": "D50"
+    },
+    {
+      "matrix": [
+        5,
+        1
+      ],
+      "silk_sw": "SW51",
+      "silk_d": "D51"
+    },
+    {
+      "matrix": [
+        5,
+        2
+      ],
+      "silk_sw": "SW52",
+      "silk_d": "D52"
+    },
+    {
+      "matrix": [
+        5,
+        3
+      ],
+      "silk_sw": "SW53",
+      "silk_d": "D53"
+    },
+    {
+      "matrix": [
+        5,
+        4
+      ],
+      "silk_sw": "SW54",
+      "silk_d": "D54"
+    },
+    {
+      "matrix": [
+        6,
+        0
+      ],
+      "silk_sw": "SW60",
+      "silk_d": "D60"
+    },
+    {
+      "matrix": [
+        6,
+        1
+      ],
+      "silk_sw": "SW61",
+      "silk_d": "D61"
+    },
+    {
+      "matrix": [
+        6,
+        2
+      ],
+      "silk_sw": "SW62",
+      "silk_d": "D62"
+    },
+    {
+      "matrix": [
+        6,
+        3
+      ],
+      "silk_sw": "SW63",
+      "silk_d": "D63"
+    },
+    {
+      "matrix": [
+        6,
+        4
+      ],
+      "silk_sw": "SW64",
+      "silk_d": "D64"
+    },
+    {
+      "matrix": [
+        6,
+        5
+      ],
+      "silk_sw": "SW65",
+      "silk_d": "D65"
+    },
+    {
+      "matrix": [
+        6,
+        7
+      ],
+      "silk_sw": "SW67",
+      "silk_d": "D67"
+    },
+    {
+      "matrix": [
+        7,
+        0
+      ],
+      "silk_sw": "SW70",
+      "silk_d": "D70"
+    },
+    {
+      "matrix": [
+        7,
+        1
+      ],
+      "silk_sw": "SW71",
+      "silk_d": "D71"
+    }
+  ]
+}
