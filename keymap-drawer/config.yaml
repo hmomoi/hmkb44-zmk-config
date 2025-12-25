@@ -12,7 +12,7 @@ parse_config:
     ESCAPE: "ESC"
     COMMA: ","
     DOT: "."
-    DQT: '"'
+    DOUBLE_QUOTES: '"'
     SQT: "'"
     SLASH: "/"
     MINUS: "-"
