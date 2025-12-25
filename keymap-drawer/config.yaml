@@ -40,7 +40,13 @@ parse_config:
     EQUAL: "="
     PLUS: "+"
     UNDER: "_"
-
+    POUND: "#"
+    DOLLAR: "$"
+    PERCENT: "%"
+    CARET: "^"
+    AMPERSAND: "&"
+    ASTERISK: "*"
+    
 draw_config:
   dark_mode: auto
   glyph_tap_size: 18
