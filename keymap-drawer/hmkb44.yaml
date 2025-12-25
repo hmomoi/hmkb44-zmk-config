@@ -59,7 +59,7 @@ layers:
   - '0'
   - '-'
   - {t: ▽, type: trans}
-  - DOUBLE QUOTES
+  - '"'
   - ''''
   - '['
   - ']'
@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - VOL DN
   - VOL UP
-  - DOUBLE QUOTES
+  - '"'
   - SINGLE QUOTE
   - EQUAL
   - PLUS
