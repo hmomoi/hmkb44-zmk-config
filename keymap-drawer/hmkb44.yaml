@@ -46,7 +46,7 @@ layers:
   - {t: LANG HANGEUL, h: RALT}
   - RCTRL
   1:Numbers:
-  - GRAVE
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -61,20 +61,20 @@ layers:
   - {t: ▽, type: trans}
   - DOUBLE QUOTES
   - ''''
-  - LEFT BRACKET
-  - RIGHT BRACKET
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT PARENTHESIS
   - RIGHT PARENTHESIS
-  - BACKSLASH
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT BRACE
-  - RIGHT BRACE
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SEMICOLON
@@ -93,7 +93,7 @@ layers:
   2:Symbols:
   - {t: ▽, type: trans}
   - '!'
-  - AT SIGN
+  - '@'
   - POUND
   - DOLLAR
   - PERCENT
@@ -104,7 +104,7 @@ layers:
   - UNDER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - GRAVE
+  - '`'
   - TILDE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
