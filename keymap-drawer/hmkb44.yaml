@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - LANGUAGE 1
+  - かな
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -275,6 +275,6 @@ combos:
   k: '-'
   l: ['0:Default']
 - p: [15, 16]
-  k: LANGUAGE 2
+  k: 英数
 - p: [19, 20]
-  k: LANGUAGE 1
+  k: かな
