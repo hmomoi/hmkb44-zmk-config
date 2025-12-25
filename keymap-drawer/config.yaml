@@ -35,6 +35,11 @@ parse_config:
     COLON: ":"
     LEFT_PARENTHESIS: "("
     RIGHT_PARENTHESIS: ")"
+    TILDE: "~"
+    SINGLE_QUOTE: "'"
+    EQUAL: "="
+    PLUS: "+"
+    UNDER: "_"
 
 draw_config:
   dark_mode: auto
