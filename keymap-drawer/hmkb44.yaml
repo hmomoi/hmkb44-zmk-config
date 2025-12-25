@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: hmkb44, layout_name: layout_US}
 layers:
   0:Default:
-  - ESCAPE
+  - ESC
   - Q
   - W
   - E
@@ -33,8 +33,8 @@ layers:
   - B
   - N
   - M
-  - COMMA
-  - DOT
+  - ,
+  - .
   - RIGHT SHIFT
   - LCTRL
   - LGUI
