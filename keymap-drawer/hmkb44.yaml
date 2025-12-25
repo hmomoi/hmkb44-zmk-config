@@ -40,7 +40,7 @@ layers:
   - LGUI
   - {t: LANG HANJA, h: LALT}
   - {t: SPACE, h: '1:Numbers'}
-  - {t: MINUS, h: '3:Combination'}
+  - {t: '-', h: '3:Combination'}
   - {t: SPACE, h: '2:Symbols'}
   - {t: SPACE, h: '4:Bluetooth'}
   - {t: LANG HANGEUL, h: RALT}
@@ -57,10 +57,10 @@ layers:
   - '8'
   - '9'
   - '0'
-  - MINUS
+  - '-'
   - {t: ▽, type: trans}
   - DOUBLE QUOTES
-  - SQT
+  - ''''
   - LEFT BRACKET
   - RIGHT BRACKET
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - CARET
   - AMPERSAND
   - ASTERISK
-  - MINUS
+  - '-'
   - UNDER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -272,7 +272,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [10, 11]
-  k: MINUS
+  k: '-'
   l: ['0:Default']
 - p: [15, 16]
   k: LANGUAGE 2
