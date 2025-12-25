@@ -12,7 +12,8 @@ parse_config:
     ESCAPE: "ESC"
     COMMA: ","
     DOT: "."
-    DOUBLEQUOTES: '"'
+    DOUBLE_QUOTE: '"'
+    QUOTE: "'"
 
 draw_config:
   dark_mode: auto
