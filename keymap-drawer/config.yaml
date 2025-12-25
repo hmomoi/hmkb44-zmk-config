@@ -12,10 +12,17 @@ parse_config:
     ESCAPE: "ESC"
     COMMA: ","
     DOT: "."
-    DOUBLEQUOTES: '"'
+    DQT: '"'
     SQT: "'"
     SLASH: "/"
     MINUS: "-"
+    GRAVE: "`"
+    LEFT_BRACKET: "["
+    RIGHT_BRACKET: "]"
+    LEFT_BRACE: "{"
+    RIGHT_BRACE: "}"
+    BACKSLASH: "\\"
+    AT_SIGN: "@"
 
 draw_config:
   dark_mode: auto
