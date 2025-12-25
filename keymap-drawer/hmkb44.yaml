@@ -101,19 +101,19 @@ layers:
   - AMPERSAND
   - ASTERISK
   - '-'
-  - UNDER
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - TILDE
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL DN
   - VOL UP
   - '"'
-  - SINGLE QUOTE
-  - EQUAL
-  - PLUS
+  - ''''
+  - '='
+  - +
   - F1
   - F2
   - F3
