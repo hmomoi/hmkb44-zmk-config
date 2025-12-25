@@ -9,6 +9,9 @@ parse_config:
     EXCLAMATION: "!"
     EXCL: "!"
     C_PLAY_PAUSE: "▷||"
+    ESCAPE: "ESC"
+    COMMA: ","
+    DOT: "."
 
 
 draw_config:
