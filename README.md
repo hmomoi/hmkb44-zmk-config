@@ -28,3 +28,6 @@ seeeduino_xiao_ble を使ってイロイロ実験してみたくて作成しま�
 * https://github.com/te9no/zmk-config-title72 （charlieplexのダイオードの向きが逆）
 * https://github.com/HookyKB/round-robin-schematics (charlieplexのschematicが公開されている)
 * https://github.com/mentako-ya/zmk-config-mtk64/tree/master (Layer rgbled widget を参考)
+
+# キーマップ
+![image](https://github.com/hmomoi/hmkb44-zmk-config/blob/main/keymap-drawer/hmkb44.svg)
