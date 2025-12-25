@@ -12,7 +12,7 @@ parse_config:
     ESCAPE: "ESC"
     COMMA: ","
     DOT: "."
-
+    DOUBLEQUOTES: """
 
 draw_config:
   dark_mode: auto
