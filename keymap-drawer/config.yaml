@@ -23,6 +23,8 @@ parse_config:
     RIGHT_BRACE: "}"
     BACKSLASH: "\\"
     AT_SIGN: "@"
+    LANGUAGE_1: "かな"
+    LANGUAGE_2: "英数"
 
 draw_config:
   dark_mode: auto
