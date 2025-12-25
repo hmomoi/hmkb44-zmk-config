@@ -38,12 +38,12 @@ layers:
   - RIGHT SHIFT
   - LCTRL
   - LGUI
-  - {t: LANG HANJA, h: LALT}
+  - {t: 英数, h: LALT}
   - {t: SPACE, h: '1:Numbers'}
   - {t: '-', h: '3:Combination'}
   - {t: SPACE, h: '2:Symbols'}
   - {t: SPACE, h: '4:Bluetooth'}
-  - {t: LANG HANGEUL, h: RALT}
+  - {t: かな, h: RALT}
   - RCTRL
   1:Numbers:
   - '`'
@@ -65,8 +65,8 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT PARENTHESIS
-  - RIGHT PARENTHESIS
+  - (
+  - )
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,9 +77,9 @@ layers:
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SEMICOLON
-  - COLON
-  - UP ARROW
+  - ;
+  - ':'
+  - ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,9 +87,9 @@ layers:
   - {type: held}
   - かな
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - ←
+  - ↓
+  - →
   2:Symbols:
   - {t: ▽, type: trans}
   - '!'
@@ -144,26 +144,26 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - UP ARROW
+  - ↑
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
+  - Gui+←
+  - Gui+→
+  - Ctl+Gui+←
+  - Ctl+Gui+→
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - ←
+  - ↓
+  - →
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - ''
-  - Gui+Sft+LEFT ARROW
+  - Gui+Sft+←
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - Gui+Sft+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
