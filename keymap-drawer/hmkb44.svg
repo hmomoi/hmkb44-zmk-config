@@ -1,4 +1,9 @@
 <svg width="788" height="1736" viewBox="0 0 788 1736" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="mdi:microsoft-windows">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-microsoft-windows" viewBox="0 0 24 24"><path d="M3,12V6.75L9,5.43V11.91L3,12M20,3V11.75L10,11.9V5.21L20,3M3,13L9,13.09V19.9L3,18.75V13M20,13.25V22L10,20.09V13.1L20,13.25Z" /></svg>
+</svg>
+</defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
 svg path {
     fill: inherit;
@@ -288,7 +293,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(105, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows"/>
 </g>
 <g transform="translate(175, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
