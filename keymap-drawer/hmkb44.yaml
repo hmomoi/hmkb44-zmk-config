@@ -37,7 +37,7 @@ layers:
   - .
   - RIGHT SHIFT
   - LCTRL
-  - LGUI
+  - '$$mdi: microsoft-windows$$'
   - {t: 英数, h: LALT}
   - {t: SPACE, h: '1:Numbers'}
   - {t: '-', h: '3:Combination'}
