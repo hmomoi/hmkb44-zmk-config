@@ -46,6 +46,7 @@ parse_config:
     CARET: "^"
     AMPERSAND: "&"
     ASTERISK: "*"
+    LGUI: $$mdi: microsoft-windows$$
     
 draw_config:
   dark_mode: auto
