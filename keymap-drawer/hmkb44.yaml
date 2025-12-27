@@ -108,8 +108,8 @@ layers:
   - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOL DN
-  - VOL UP
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - '"'
   - ''''
   - '='
