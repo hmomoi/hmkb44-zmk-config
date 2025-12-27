@@ -99,6 +99,8 @@ parse_config:
     PAGE_DOWN: $$mdi:transfer-down$$
     C_VOL_UP: $$mdi:volume-high$$
     C_VOL_DN: $$mdi:volume-low$$
+    BACKSPACE: $$mdi:backspace$$
+    DELETE: $$mdi:backspace-reverse$$
 
 draw_config:
   dark_mode: auto
