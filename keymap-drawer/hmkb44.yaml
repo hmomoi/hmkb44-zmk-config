@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - $$mdi:backspace$$
   - TAB
   - A
   - S
@@ -166,7 +166,7 @@ layers:
   - Gui+Sft+$$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - $$mdi:backspace-reverse$$
   - $$mdi:transfer-up$$
   - $$mdi:transfer-down$$
   - {t: ▽, type: trans}
