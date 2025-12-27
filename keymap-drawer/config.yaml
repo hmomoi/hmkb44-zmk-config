@@ -95,7 +95,13 @@ parse_config:
     AMPERSAND: "&"
     ASTERISK: "*"
     LGUI: $$mdi:microsoft-windows$$
-    
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+    PG_UP: $$mdi:transfer-up$$
+    PG_DN: $$mdi:transfer-down$$
+
 draw_config:
   dark_mode: auto
   glyph_tap_size: 18
