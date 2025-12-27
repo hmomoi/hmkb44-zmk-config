@@ -17,24 +17,24 @@ parse_config:
 
     # Bluetooth
     "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
       hold: 1
     "&bt BT_SEL 1":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
       hold: 2
     "&bt BT_SEL 2":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
       hold: 3
     "&bt BT_SEL 3":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
       hold: 4
     "&bt BT_SEL 4":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
       hold: 5
     "&out OUT_TOG":
       shifted: $$mdi:usb$$
