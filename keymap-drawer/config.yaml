@@ -47,6 +47,7 @@ parse_config:
     AMPERSAND: "&"
     ASTERISK: "*"
     LGUI: $$mdi:microsoft-windows$$
+    BT: $$mdi:bluetooth-connect$$
     
 draw_config:
   dark_mode: auto
