@@ -75,10 +75,6 @@ parse_config:
     LANGUAGE_2: "英数"
     LANG_HANJA: "英数"
     LANG_HANGEUL: "かな"
-    LEFT_ARROW: "←"
-    RIGHT_ARROW: "→"
-    UP_ARROW: "↑"
-    DOWN_ARROW: "↓"
     SEMICOLON: ";"
     COLON: ":"
     LEFT_PARENTHESIS: "("
@@ -95,12 +91,14 @@ parse_config:
     AMPERSAND: "&"
     ASTERISK: "*"
     LGUI: $$mdi:microsoft-windows$$
-    UP: $$mdi:arrow-up-bold$$
-    DOWN: $$mdi:arrow-down-bold$$
-    LEFT: $$mdi:arrow-left-bold$$
-    RIGHT: $$mdi:arrow-right-bold$$
-    PG_UP: $$mdi:transfer-up$$
-    PG_DN: $$mdi:transfer-down$$
+    UP_ARROW: $$mdi:arrow-up-bold$$
+    DOWN_ARROW: $$mdi:arrow-down-bold$$
+    LEFT_ARROW: $$mdi:arrow-left-bold$$
+    RIGHT_ARROW: $$mdi:arrow-right-bold$$
+    PAGE_UP: $$mdi:transfer-up$$
+    PAGE_DOWN: $$mdi:transfer-down$$
+    VOL_UP: $$mdi:volume-high$$
+    VOL_DN: $$mdi:volume-low$$
 
 draw_config:
   dark_mode: auto
