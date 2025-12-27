@@ -97,8 +97,8 @@ parse_config:
     RIGHT_ARROW: $$mdi:arrow-right-bold$$
     PAGE_UP: $$mdi:transfer-up$$
     PAGE_DOWN: $$mdi:transfer-down$$
-    VOL_UP: $$mdi:volume-high$$
-    VOL_DN: $$mdi:volume-low$$
+    C_VOL_UP: $$mdi:volume-high$$
+    C_VOL_DN: $$mdi:volume-low$$
 
 draw_config:
   dark_mode: auto
