@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - ;
   - ':'
-  - ↑
+  - $$mdi:arrow-up-bold$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,9 +87,9 @@ layers:
   - {type: held}
   - かな
   - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - →
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   2:Symbols:
   - {t: ▽, type: trans}
   - '!'
@@ -144,31 +144,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - ↑
+  - $$mdi:arrow-up-bold$$
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+←
-  - Gui+→
-  - Ctl+Gui+←
-  - Ctl+Gui+→
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - →
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+Sft+←
+  - Gui+Sft+$$mdi:arrow-left-bold$$
   - {t: ▽, type: trans}
-  - Gui+Sft+→
+  - Gui+Sft+$$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
-  - PAGE UP
-  - PAGE DOWN
+  - $$mdi:transfer-up$$
+  - $$mdi:transfer-down$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
