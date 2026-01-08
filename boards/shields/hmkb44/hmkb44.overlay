@@ -49,6 +49,7 @@
 &kscan0 {
     compatible = "zmk,kscan-gpio-charlieplex";
     interrupt-gpios = <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    wakeup-source;
     gpios
         = <&xiao_d 3 (GPIO_ACTIVE_HIGH)>
         , <&xiao_d 7 (GPIO_ACTIVE_HIGH)>
